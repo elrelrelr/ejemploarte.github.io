@@ -1,0 +1,134 @@
+.volver {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    max-width: 75px;
+    max-height: 50px;
+    left: 3%;
+    top: 6%;
+}
+
+.sinpadding {
+    padding-left: 1rem!important;
+}
+
+.play {
+    position: relative;
+    width: 60%;
+    top: 0px;
+    height: 80%;
+    color: #fff;
+}
+
+.art1 {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.pP2zB90z47wkls8JAKgiAgHaEK%26pid%3DApi&f=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.art2 {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.9ChKarvvjQP1qZ5n2SickAHaD4%26pid%3DApi&f=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.art3 {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.sFonYofm-u3mHP0N0UR8aAHaEd%26pid%3DApi&f=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.art4 {
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.mo2r0-1lGIZZmW2a2I1tGQHaEP%26pid%3DApi&f=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creaciones {
+    min-height: 250px;
+}
+
+.creaciones::-webkit-scrollbar {
+    background-color: #9e9e9e;
+    height: 13px;
+}
+
+.creaciones::-webkit-scrollbar-thumb {
+    background-color: #b32727;
+}
+
+.imagen {
+    width: 200px;
+    height: 200px;
+}
+
+.metodo-contactar {
+    flex-direction: column;
+}
+
+@media(max-width: 780px) {
+    .services .icon-box {
+        width: 100%;
+    }
+}
+
+@media(max-width: 991px) {
+    .formulario {
+        position: relative;
+        top: 10px;
+    }
+}
+
+.navbar a,
+.navbar a:focus {
+    color: #000000;
+}
+
+
+/*Modo oscuro*/
+
+.dark {
+    background-color: #524e45;
+}
+
+.dark::-webkit-scrollbar {
+    background-color: #22211d !important;
+}
+
+.dark::-webkit-scrollbar-thumb {
+    background-color: #524e45 !important;
+}
+
+.menu {
+    /* background-color: rgb(33 32 32) !important; */
+    background-color: rgb(31 16 16) !important;
+}
+
+.menu .navbar a,
+.navbar a:focus {
+    color: #00ffd3 !important;
+}
+
+.menu .navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+    color: #ae6868 !important;
+}
+
+.menu .container .logo h1 a {
+    color: #00ffd3 !important;
+}
+
+.submenu {
+    color: #00ffd3 !important;
+}
+
+.modo {
+    left: 3%;
+    color: black;
+}
+
+.objetivo {
+    color: #3073b6
+}

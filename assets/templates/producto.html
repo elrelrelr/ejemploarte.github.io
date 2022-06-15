@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Productos</title>
+
+    <link href="imagenes/ecoartesanos.png" rel="icon">
+    <link href="imagenes/ecoartesanos.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="producto.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #f0f8ff;">
+    <div class="contenedor container d-grid gap-2">
+        <div class="row">
+
+            <!-- 
+                targeta
+             -->
+
+            <div class="targeta p-3 gap-2 d-grid col-sm-12 col-md-12 col-lg-7 col-xxl-6">
+                <button type="button" class="btn btn-light fs-2" style="background-color:#7fffd4;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"/>
+                  </svg>
+                  Volver
+                </button>
+                <!-- <div class="container"> -->
+                <img class="producto img-fluid rounded" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.UXHkyBAb4uLQNNZ8ybjM7QHaEK%26pid%3DApi&f=1">
+                <!-- </div> -->
+                <p class="nombrep badge text-wrap fs-3" id="nombre-producto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+
+
+
+            <div class="peticion col-sm-12 col-md-12 col-lg-5 col-xxl-6">
+                <form action="https://formsubmit.co/estebanlopre@protonmail.com" method="post" role="form" class="formulario p-3">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Una contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="cantidad" class="form-label">Cantidad</label>
+                        <select id="cantidad">
+                        <option id="numero">1</option>
+                        <option id="numero">2</option>
+                        <option id="numero">3</option>
+                        <option id="numero">4</option>
+                        <option id="numero">5</option>
+                    </select>
+                    </div>
+                    <div class="form-group mt-3" id="mensaje">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Verificado</label>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #7fffd4;">Enviar</button>
+                </form>
+            </div>
+
+
+            <div class="info col-sm-12 col-md-12 col-lg-12 col-xxl-12 p-3">
+                <div class="descripcion fs-4" id="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, enim rerum. Iste voluptate fugit sequi possimus fugiat? Optio id adipisci numquam aspernatur iste asperiores laudantium, corporis minima laborum? Placeat, maxime.</div>
+            </div>
+        </div>
+
+
+        <footer class="row fs-6 p-2" style="background-color: #deb887; text-align: center;">
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong><span><a href="#" style="font-weight: bold;">CimaMaker</a></span></strong>. Todos los derechos reservados
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

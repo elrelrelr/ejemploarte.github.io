@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    /* width: 100%;
+    height: 100%; */
+}
+
+
+/* 
+targeta
+ */
+
+.targeta {
+    background-color: #fff8dc;
+    grid-area: targ;
+}
+
+.producto {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.nombrep {
+    background-color: #5f9ea0;
+}
+
+
+/* 
+peticion area 
+*/
+
+.peticion {
+    background-color: #faebd7;
+}
+
+.formulario {}
+
+
+/*
+ info area
+ */
+
+.info {
+    background-color: #f5f5dc;
+}
+
+.descripcion {}
+
+.autor {}
+
+@media(max-width:600px) {
+    /* .peticion {
+        grid-area: pet;
+    }
+    .info {
+        grid-area: info;
+    }
+    .targeta {
+        grid-area: targ;
+    }
+    .contenedor {
+        grid-template-areas: "targ""pet""info" !important;
+    } */
+}
